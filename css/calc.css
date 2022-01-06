@@ -1,0 +1,147 @@
+#choice-block {
+    text-align: center;
+    margin-top: 150px;
+    background-image: url("../images/bg_objects (2).png");
+    background-size: cover;
+    background-position: center;
+}
+
+.choice-block-items svg {
+    width: 250px;
+    height: 250px;
+    fill: black;
+}
+
+.calc {
+    width: 320px;
+    height: 520px;
+    border-radius: 20px;
+    background: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    box-shadow: 4px 4px 4px #4f4f4f;
+    padding: 18px;
+    margin: 50px auto;
+}
+
+#clean-all {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+    user-select: none;
+    line-height: 57px;
+    color: white;
+    background: #a6a6a6;
+}
+
+#clean {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+    user-select: none;
+    line-height: 59px;
+    color: white;
+    background: #a6a6a6;
+}
+
+#result {
+    width: 60px;
+    height: 60px;
+    background: #333;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+    user-select: none;
+    line-height: 60px;
+    color: white;
+}
+
+#history {
+    background: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    width: 260px;
+    margin-left: -5px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+}
+
+#general {
+    background: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    width: 260px;
+    margin-left: -5px;
+    font-size: 52px;
+    border: none;
+    outline: none;
+}
+
+.calc-screen {
+    height: 125px;
+    padding: 10px;
+    display: grid;
+    justify-items: end;
+    align-items: end;
+}
+
+.calc-screen p {
+    font-size: 4rem;
+    margin: 0;
+}
+
+.buttons {
+    display: grid;
+    grid-template-areas:
+    "ac plus-minus percent division"
+    "seven eight nine muili"
+    "four five six minus"
+    "one two three plus"
+    "dot zero zero equal";
+    grid-gap: 7px;
+    justify-items: center;
+}
+
+.btn {
+    width: 60px;
+    height: 60px;
+    background: #333;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+    user-select: none;
+    line-height: 46px;
+    color: white;
+}
+
+.btn.zero {
+
+}
+
+.btn:hover {
+    filter: brightness(120%);
+    color: white;
+}
+
+.btn:active {
+    filter: brightness(90%);
+}
+
+.btn.bg-grey {
+    background: #a6a6a6;
+}
+
+.btn.bg-orange {
+    background: #ff9501;
+}
+
+

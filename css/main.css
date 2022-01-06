@@ -1,0 +1,12 @@
+#choice-block{;
+    text-align: center;
+    margin-top: 150px;
+    background-image: url("../images/bg_objects (2).png");
+    background-size: cover;
+    background-position: center;
+}
+.choice-block-items svg{
+    width: 250px;
+    height: 250px;
+    fill: black;
+}
